@@ -21,8 +21,8 @@ console.log(meeting([['XX', 2], ['XXXX', 6], ['XXXXX', 4]]));
 // https://www.codewars.com/kata/5bb904724c47249b10000131/train/javascript
 const points = games => {
   let result = games.map(el => { 
-    let x = Number(el[0])
-    let y = Number(el[2])
+    let x = Number(el[0]);
+    let y = Number(el[2]);
     if (x > y) { return 3 }
     else if (x < y) { return 0 }
     else { return 1 }
